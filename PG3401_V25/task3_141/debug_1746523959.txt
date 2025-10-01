@@ -1,0 +1,8 @@
+0001: Debug [flight.c:23] Fly lagt til: 12345
+0002: Debug [flight.c:56] Passasjer lagt til: Rolf på fly 12345
+0003: Debug [flight.c:56] Passasjer lagt til: Rolf på fly 12345
+0004: Debug [flight.c:23] Fly lagt til: 111
+0005: Debug [flight.c:56] Passasjer lagt til: Rolf på fly 111
+0006: Debug [flight.c:99] Fly slettet: 111
+0007: Debug [flight.c:196] All minne frigjort for fly og passasjerer
+0008: Debug [main.c:139] Program avsluttet og minne frigjort

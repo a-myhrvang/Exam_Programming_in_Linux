@@ -1,0 +1,7 @@
+0001: Debug [main.c:27] Starter programmet, åpner inputfil pgexam25_test.txt
+0002: Debug [main.c:48] Hash beregnet: 3739491113
+0003: Debug [main.c:56] Bokstavtelling fullført
+0004: Debug [main.c:66] Filstørrelse: 450, Sum av tegn: 42244
+0005: Debug [main.c:70] Inputfil lukket
+0006: Debug [main.c:87] Outputfil lukket, metadata skrevet til pgexam25_output.bin
+0007: Debug [main.c:91] Program avsluttet normalt

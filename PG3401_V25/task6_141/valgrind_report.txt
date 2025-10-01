@@ -1,0 +1,63 @@
+==8323== Memcheck, a memory error detector
+==8323== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==8323== Using Valgrind-3.14.0 and LibVEX; rerun with -h for copyright info
+==8323== Command: ./main -server 127.0.0.1 -port 42129
+==8323== 
+Connected to 127.0.0.1:42129
+Received 809 bytes.
+Encrypted payload size: 809 bytes
+Guessing key...
+Trying key byte: 0
+Trying key byte: 1
+Trying key byte: 2
+Trying key byte: 3
+Trying key byte: 4
+Trying key byte: 5
+Trying key byte: 6
+Trying key byte: 7
+Trying key byte: 8
+Trying key byte: 9
+Trying key byte: 10
+Trying key byte: 11
+Trying key byte: 12
+Trying key byte: 13
+Trying key byte: 14
+Trying key byte: 15
+Trying key byte: 16
+Trying key byte: 17
+Trying key byte: 18
+Trying key byte: 19
+Trying key byte: 20
+Trying key byte: 21
+Trying key byte: 22
+Trying key byte: 23
+Trying key byte: 24
+Trying key byte: 25
+Trying key byte: 26
+Trying key byte: 27
+Trying key byte: 28
+Trying key byte: 29
+Trying key byte: 30
+Trying key byte: 31
+Trying key byte: 32
+Trying key byte: 33
+Trying key byte: 34
+Trying key byte: 35
+Trying key byte: 36
+Trying key byte: 37
+Trying key byte: 38
+Trying key byte: 39
+Trying key byte: 40
+Found key: 28
+Decryption key found: 28282828
+Decrypted 1 blocks (8 bytes).
+Decrypted file written to decrypted_output.txt
+==8323== 
+==8323== HEAP SUMMARY:
+==8323==     in use at exit: 0 bytes in 0 blocks
+==8323==   total heap usage: 4 allocs, 4 frees, 16,936 bytes allocated
+==8323== 
+==8323== All heap blocks were freed -- no leaks are possible
+==8323== 
+==8323== For counts of detected and suppressed errors, rerun with: -v
+==8323== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
