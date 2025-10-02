@@ -1,9 +1,5 @@
-# Exam_Programming_in_Linux
-Exam project, programming in Linux writing C
-
----
-
 TEA Encryption & Flyreservasjonssystem - Eksamensprosjekt i C
+
 Dette prosjektet er resultatet av en eksamensoppgave i faget PG3401, og består av to hoveddeler: implementasjon og bruk av TEA-kryptering/dekryptering, samt utviklingen av et flyreservasjonssystem i C89-standard. Koden er skrevet i C og følger retningslinjer for strukturell programmering uten objektorientering. Prosjektet kombinerer lavnivå programmering, filhåndtering, dynamisk minneallokering, validering av input, samt nettverkskommunikasjon.
 
 ---
@@ -16,9 +12,9 @@ Her implementerte jeg grunnleggende datastrukturer ved hjelp av lenkede lister f
 
 Hva jeg lærte:
 
-•	Bruk av struct og typedef i C
-•	Dynamisk minneallokering og friing av minne med malloc og free
-•	Innføring i hvordan datastrukturer henger sammen i praksis
+-	Bruk av struct og typedef i C
+-	Dynamisk minneallokering og friing av minne med malloc og free
+-	Innføring i hvordan datastrukturer henger sammen i praksis
 
 ---
  
@@ -28,9 +24,9 @@ I denne delen implementerte jeg funksjonalitet for å skrive fly- og passasjerda
 
 Hva jeg lærte:
 
-•	Binær lesing og skriving i C (fread, fwrite)
-•	Feilhåndtering ved filoperasjoner
-•	Persistens av datastrukturer
+-	Binær lesing og skriving i C (fread, fwrite)
+-	Feilhåndtering ved filoperasjoner
+-	Persistens av datastrukturer
 
 ---
  
@@ -40,9 +36,9 @@ Her la jeg til funksjoner for å slette spesifikke fly eller passasjerer, samt s
 
 Hva jeg lærte:
 
-•	Manipulasjon av lenkede lister
-•	Feilhåndtering ved søk og sletting
-•	Forståelse av pekere og indirekte tilgang til minne
+-	Manipulasjon av lenkede lister
+-	Feilhåndtering ved søk og sletting
+-	Forståelse av pekere og indirekte tilgang til minne
 
 ---
  
@@ -52,9 +48,9 @@ For å sikre programstabilitet og gyldig data, implementerte jeg flere funksjone
 
 Hva jeg lærte:
 
-•	Hvordan sikre datakvalitet gjennom inputvalidering
-•	Bruk av isdigit, strlen, og egne hjelpefunksjoner
-•	Sammenheng mellom brukergrensesnitt og intern datasikkerhet
+-	Hvordan sikre datakvalitet gjennom inputvalidering
+-	Bruk av isdigit, strlen, og egne hjelpefunksjoner
+-	Sammenheng mellom brukergrensesnitt og intern datasikkerhet
 
 ---
  
@@ -64,9 +60,9 @@ I denne delen implementerte jeg et brukervennlig tekstbasert menygrensesnitt, hv
 
 Hva jeg lærte:
 
-•	Kontrollflyt i interaktive programmer
-•	Hvordan strukturere kode for lesbarhet og vedlikehold
-•	Bruk av fgets, atoi og feilhåndtering ved brukerinput
+-	Kontrollflyt i interaktive programmer
+-	Hvordan strukturere kode for lesbarhet og vedlikehold
+-	Bruk av fgets, atoi og feilhåndtering ved brukerinput
 
 ---
  
@@ -76,30 +72,32 @@ I denne delen bygget jeg en klient som kobler til en server (EWA), mottar krypte
 
 Hva jeg lærte:
 
-•	Hvordan TEA (Tiny Encryption Algorithm) fungerer i praksis
-•	Bitoperasjoner, skift og XOR-operasjoner i C
-•	Nettverksprogrammering med sockets i lavnivå C
-•	Debugging og analyse av binærdata
-•	PKCS5 padding-konseptet
+-	Hvordan TEA (Tiny Encryption Algorithm) fungerer i praksis
+-	Bitoperasjoner, skift og XOR-operasjoner i C
+-	Nettverksprogrammering med sockets i lavnivå C
+-	Debugging og analyse av binærdata
+-	PKCS5 padding-konseptet
 
 Til tross for korrekt implementert algoritme, støtte jeg på utfordringer med nøkkelgjettingen. Jeg valgte å dokumentere dette i stedet for å bruke tid på videre feilsøking - noe jeg vurderte som riktig prioritering med tanke på eksamenstiden.
 
 ---
+
  
 Refleksjon
 
 Gjennom dette prosjektet har jeg virkelig fått kjenne på både frustrasjon og mestring. Når programmene ikke fungerer som forventet, kan det være utmattende og tidkrevende å feilsøke. Likevel er det få ting som slår følelsen av å endelig få outputen til å stemme. Jeg har opplevd ekte programmeringsglede, særlig når flyreservasjonssystemet endelig kunne lagre og hente passasjerdata uten feil.
 Jeg har blitt mer komfortabel med C som språk, og samtidig forstått hvorfor man må være ekstremt nøye - det er ingen beskyttelsesnett! Små feil kan få store konsekvenser, og det krever disiplin å følge C89-standarden, spesielt når man står midt i en feilsøkingsøkt og glemmer å flytte deklarasjoner til starten av funksjonen.
 
+
 ---
  
 Brukt teknologi og verktøy
 
-•	Språk: C (C89 standard)
-•	Kompilator: GCC
-•	Debugging: printf-debugging og valideringsfunksjoner
-•	Nettverksprogrammering: TCP/IP sockets
-•	Git og GitHub for versjonskontroll og dokumentasjon
+-	Språk: C (C89 standard)
+-	Kompilator: GCC
+-	Debugging: printf-debugging og valideringsfunksjoner
+-	Nettverksprogrammering: TCP/IP sockets
+-	Git og GitHub for versjonskontroll og dokumentasjon
 
 ---
 
